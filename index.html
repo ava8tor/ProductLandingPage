@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gregory's Carwash</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div id="header-logo">
+        <img
+          id="header-img"
+          src="https://t4.ftcdn.net/jpg/02/82/15/71/240_F_282157142_ixpBBuIRZJ8EAsltD3osOOCvlAKDE01m.jpg"
+          alt="carwash-logo"
+        />
+        <h1 id="header-title">Gregory's Carwash</h1>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section id="about">
+        <h2>Giving you the clean car you deserve</h2>
+        <iframe
+          id="video"
+          src="https://youtube.com/embed/z0kKDkPB2js"
+          title="How to wash a car"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="services">
+        <h2>Services</h2>
+        <div id="service-container">
+            <div class="service-card">
+              <h3 class="service-title">Basic</h3>
+              <div class="service-price">$15</div>
+              <ul class="service-list">
+                <li>Basic Cleaning</li>
+                <li>Vacuming</li>
+              </ul>
+              <button class="service-button">Select</button>
+            </div>
+            <div class="service-card">
+              <h3 class="service-title">Premium</h3>
+              <div class="service-price">$20</div>
+              <ul class="service-list">
+                <li>Basic Clean</li>
+                <li>Vacuming</li>
+                <li>Tire Wash</li>
+              </ul>
+              <button class="service-button">Select</button>
+            </div>
+            <div class="service-card">
+              <h3 class="service-title">Ultimate</h3>
+              <div class="service-price">$25</div>
+              <ul class="service-list">
+                <li>Basic Clean</li>
+                <li>Vacuming</li>
+                <li>Tire Wash</li>
+                <li>Air Freshner</li>
+              </ul>
+              <button class="service-button">Select</button>
+            </div>
+        </div>
+      </section>
+      <section id="contact">
+        <form id="form">
+          <!-- <form id="form" action="https://www.freecodecamp.com/email-submit"> -->
+          <h2>Contact us for more info</h2>
+          <input id="email" name="email" type="email" placeholder="Email address here" />
+          <input id="submit" type="submit" value="Send Email" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
